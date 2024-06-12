@@ -23,12 +23,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  margin: auto;
   font-size: 1rem;
   line-height: 1.25;
+  background-color: #e9e8da;
 }
 
-a {
+a .ArtiChoke {
   color: #0057ff;
 }
 
@@ -51,6 +52,14 @@ video {
 
 ul {
   margin-top: 20px;
+}
+
+header {
+  background-image: url("../../img/background-beer.png");
+  background-size: cover;
+  width: 1440px;
+  height: 975px;
+  margin: auto;
 }
 
 .row + .row {
