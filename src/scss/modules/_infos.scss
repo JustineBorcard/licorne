@@ -1,0 +1,52 @@
+.infos-blond {
+  color: var(--White, #fff);
+  font-family: Abel;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 1112px;
+  height: 176px;
+  flex-shrink: 0;
+  background-color: hsl(336, 12%, 44%);
+  padding: 80px 150px 30px 55px;
+  width: 1315px;
+  height: 478px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.infos-dark {
+  color: var(--White, #fff);
+  font-family: Abel;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 1112px;
+  height: 176px;
+  flex-shrink: 0;
+  background-color: #83a5a8;
+  padding: 80px 50px 30px 150px;
+  width: 1315px;
+  height: 478px;
+  position: relative;
+  text-align: right;
+  margin-top: 150px;
+}
+
+.infos-ipa {
+  color: var(--White, #fff);
+  font-family: Abel;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-shrink: 0;
+  background-color: #6c7d47;
+  padding: 80px 150px 30px 55px;
+  width: 1315px;
+  height: 478px;
+  position: relative;
+  margin-top: 150px;
+}

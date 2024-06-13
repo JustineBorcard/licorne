@@ -23,14 +23,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  margin: auto;
-  font-size: 1rem;
-  line-height: 1.25;
-  background-color: #e9e8da;
 }
 
 a .ArtiChoke {
   color: #0057ff;
+}
+
+h2 {
+  color: var(--Black, #000);
+  font-family: "Palette Mosaic";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 654px;
+  height: 77px;
+  margin-top: 200px;
 }
 
 h3 {
@@ -43,6 +51,7 @@ h3 {
   width: 388px;
   opacity: 0.25;
 }
+
 img,
 video {
   max-inline-size: 100%;
@@ -52,14 +61,6 @@ video {
 
 ul {
   margin-top: 20px;
-}
-
-header {
-  background-image: url("../../img/background-beer.png");
-  background-size: cover;
-  width: 1440px;
-  height: 975px;
-  margin: auto;
 }
 
 .row + .row {
