@@ -1,5 +1,4 @@
 .naviguation {
-  color: var(--Black, #000);
   font-family: "Palette Mosaic";
   font-size: 26px;
   font-style: normal;
@@ -10,4 +9,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.a .navigation {
+  color: var(--Black, #000);
 }
