@@ -17,31 +17,33 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="languages">
-              <p>FR/</p>
-              <p>DE/</p>
-              <p>EN</p>
-            </div>
-            <div class="col-2 offset-10">
-              <img
-                class="login"
-                src="../img/login.svg"
-                alt="Symbole d'un petit personnage de login."
-              />
-              <img
-                class="panier"
-                src="../img/panier.svg"
-                alt="Symbole d'un panier."
-              />
+            <div class="identifient">
+              <div class="languages">
+                <p>FR/</p>
+                <p>DE/</p>
+                <p>EN</p>
+              </div>
+              <div>
+                <img
+                  class="login"
+                  src="../img/login.svg"
+                  alt="Symbole d'un petit personnage de login."
+                />
+                <img
+                  class="panier"
+                  src="../img/panier.svg"
+                  alt="Symbole d'un panier."
+                />
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
             <nav class="naviguation">
-              <a href="#">NOTRE HISTOIRE</a>
-              <a href="#">NOS BIERES</a>
-              <a href="#">SHOP</a>
+              <a href="#histoire">NOTRE HISTOIRE</a>
+              <a href="#bieres">NOS BIERES</a>
+              <a href="#shop">SHOP</a>
               <a href="#">POINTS DE VENTE</a>
               <a href="#">CONTACT</a>
             </nav>
@@ -67,13 +69,13 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="history">NOTRE HISTOIRE</h2>
+            <h2 class="history" id="histoire">NOTRE HISTOIRE</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <h3 class="who">QUI SUIS-JE</h3>
-            <p class="who-text">
+            <h3 class="history-sylvain">QUI SUIS-JE</h3>
+            <p class="history-sylvain-text">
               Je suis Sylvain, 35 ans, né à Estavayer-Le-Lac, et passionné de
               bière artisanale. Ingénieur de formation, j'ai perfectionné mes
               compétences en brassage lors de stages en Belgique. Un voyage au
@@ -84,23 +86,25 @@
         </div>
         <div class="row">
           <div class="col-6">
-            <h3 class="engagement">MON ENGAGEMENT LOCAL</h3>
-            <p class="engagement-text">
+            <h3 class="history-engagement">MON ENGAGEMENT LOCAL</h3>
+            <p class="history-engagement-text">
               En 2023, j'ai été élu au conseil général d'Estavayer-Le-Lac, où je
               m'investis activement dans le développement touristique. Je suis
               également membre du comité de direction du
               <a
-                class="ArtiChoke"
+                class="history-ArtiChoke"
                 href="https://www.artichokefestival.ch/"
                 target="_blank"
-                >Festival de ArtiChoke</a
-              >, un festival annuel d'arts urbains qui m'a ouvert à de nouvelles
+              >
+                Festival de ArtiChoke
+              </a>
+              , un festival annuel d'arts urbains qui m'a ouvert à de nouvelles
               influences artistiques, visibles dans le design de nos étiquettes.
             </p>
           </div>
           <div class="col-6">
-            <h3 class="brewery">LA BRASSERIE LICORNE</h3>
-            <p class="brewery-text">
+            <h3 class="history-brewery">LA BRASSERIE LICORNE</h3>
+            <p class="history-brewery-text">
               La brasserie est installée dans une bâtisse médiévale à
               Estavayer-Le-Lac. Avec mon équipe de trois personnes, nous
               produisons des bières bio avec des céréales locales, garantissant
@@ -117,30 +121,27 @@
               <img
                 src="../img/img-hand.png"
                 alt="Mains qui tiennent du blé."
-                class="hand"
+                class="image-hand"
               />
             </div>
             <div class="col-7">
               <img
                 src="../img/img-ceiling.png"
                 alt="Photo de plafond de château."
-                class="ceiling"
+                class="image-ceiling"
               />
-            </div>
-            <div class="col-7 offset-5">
               <img
                 src="../img/img-biere.png"
                 alt="Photo de quelqu'un qui boit une bière."
-                class="beer"
+                class="image-beer"
               />
             </div>
-          </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="our-beers">NOS BIERES</h2>
+            <h2 class="our-beers" id="bieres">NOS BIERES</h2>
           </div>
         </div>
         <div class="row">
@@ -155,7 +156,7 @@
                 </p>
               </div>
               <div>
-                <button class="order-blond">
+                <button class="infos-order-blond">
                   Commander
                   <img
                     src="../img/arrow.svg"
@@ -164,7 +165,7 @@
                 </button>
               </div>
               <div>
-                <p class="ingredients-blond">
+                <p class="infos-ingredients-blond">
                   Eau, malt d'orge, colorant : E150c, arôme naturel, houblon.
                   <br />
                   Allergènes : Gluten
@@ -192,7 +193,7 @@
                 </p>
               </div>
               <div>
-                <button class="order-dark">
+                <button class="infos-order-dark">
                   Commander
                   <img
                     src="../img/arrow.svg"
@@ -201,7 +202,7 @@
                 </button>
               </div>
               <div>
-                <p class="ingredients-dark">
+                <p class="infos-ingredients-dark">
                   Eau, malt d'orge, colorant : E150c, arôme naturel, houblon.
                   <br />
                   Allergènes : Gluten
@@ -231,7 +232,7 @@
                 </p>
               </div>
               <div>
-                <button class="order-ipa">
+                <button class="infos-order-ipa">
                   Commander
                   <img
                     src="../img/arrow.svg"
@@ -240,7 +241,7 @@
                 </button>
               </div>
               <div>
-                <p class="ingredients-ipa">
+                <p class="infos-ingredients-ipa">
                   Houblon agrume, eau, coriandre, malt de seigle. <br />
                 </p>
               </div>
@@ -258,7 +259,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="shop">SHOP</h2>
+            <h2 class="shop" id="shop">SHOP</h2>
           </div>
         </div>
         <div class="row">
@@ -270,13 +271,13 @@
                     src="../img/card-blond.png"
                     alt="Image de la bière licorne blonde avec une carte de couleur vert/blanche en arrière plan."
                   />
-                  <p class="title-card">
+                  <p class="card-title">
                     LIC%RNE <br />
                     Blond
                   </p>
-                  <p class="price-one">1x CHF 4.60</p>
-                  <p class="price-four">4x CHF 16</p>
-                  <button class="order-shop">
+                  <p class="card-price-one">1x CHF 4.60</p>
+                  <p class="card-price-four">4x CHF 16</p>
+                  <button class="card-order">
                     Commander
                     <img
                       src="../img/black-arrow.svg"
@@ -289,13 +290,13 @@
                     src="../img/card-dark.png"
                     alt="Image de la bière licorne brune avec une carte de couleur bleu en arrière plan."
                   />
-                  <p class="title-card">
+                  <p class="card-title">
                     LIC%RNE <br />
                     Brune
                   </p>
-                  <p class="price-one">1x CHF 4.60</p>
-                  <p class="price-four">4x CHF 16</p>
-                  <button class="order-shop">
+                  <p class="card-price-one">1x CHF 4.60</p>
+                  <p class="card-price-four">4x CHF 16</p>
+                  <button class="card-order">
                     Commander
                     <img
                       src="../img/black-arrow.svg"
@@ -308,13 +309,13 @@
                     src="../img/card-ipa.png"
                     alt="Image de la bière licorne IPA avec une carte de couleur vert pomme en arrière plan."
                   />
-                  <p class="title-card">
+                  <p class="card-title">
                     LIC%RNE <br />
                     IPA
                   </p>
                   <p class="price-one">1x CHF 4.60</p>
                   <p class="price-four">4x CHF 16</p>
-                  <button class="order-shop">
+                  <button class="card-order">
                     Commander
                     <img
                       src="../img/black-arrow.svg"

@@ -28,7 +28,7 @@
   flex-shrink: 0;
   background-color: #83a5a8;
   padding: 80px 50px 30px 150px;
-  width: 1315px;
+  width: 1354px;
   height: 478px;
   position: relative;
   text-align: right;
@@ -49,4 +49,103 @@
   height: 478px;
   position: relative;
   margin-top: 150px;
+}
+
+.infos-ingredients-blond {
+  color: var(--White, #fff);
+  font-family: Abel;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 110px;
+}
+
+.infos-ingredients-ipa {
+  color: var(--White, #fff);
+  font-family: Abel;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 110px;
+}
+
+.infos-ingredients-dark {
+  color: var(--White, #fff);
+  font-family: Abel;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+}
+
+.infos-order-ipa {
+  display: inline-flex;
+  padding: 7px 19px;
+  align-items: center;
+  gap: 15px;
+  border-radius: 53px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: right;
+  font-family: Abel;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: rgba(217, 217, 217, 0);
+  position: absolute;
+  bottom: 30px;
+}
+.infos-order-blond {
+  display: inline-flex;
+  padding: 7px 19px;
+  align-items: center;
+  gap: 15px;
+  border-radius: 53px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: right;
+  font-family: Abel;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: rgba(217, 217, 217, 0);
+  position: absolute;
+  bottom: 30px;
+}
+
+.infos-order-dark {
+  display: inline-flex;
+  padding: 7px 19px;
+  align-items: center;
+  gap: 15px;
+  border-radius: 53px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: right;
+  font-family: Abel;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: rgba(217, 217, 217, 0);
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
 }

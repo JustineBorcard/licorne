@@ -1,0 +1,50 @@
+.card-title {
+  color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 362px;
+  height: 85px;
+  flex-shrink: 0;
+}
+
+.card-shop {
+  display: flex;
+}
+
+.card-price-one {
+  color: #000;
+  font-family: Abel;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-price-four {
+  color: #000;
+  font-family: Abel;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-order {
+  display: inline-flex;
+  padding: 3px 23px;
+  align-items: center;
+  gap: 19px;
+  border-radius: 53px;
+  border: 1px solid var(--Black, #000);
+  background: rgba(217, 217, 217, 0);
+  color: var(--Black, #000);
+  text-align: right;
+  font-family: Abel;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
