@@ -14,9 +14,6 @@
 
 .places-arti {
   position: absolute;
-  bottom: 10px; /* Ajustez selon vos besoins */
-  left: 10px; /* Ajustez selon vos besoins */
-  padding: 5px; /* Optionnel: pour une meilleure lisibilité du texte */
   z-index: 10;
   color: var(--Black, #000);
   text-align: right;
@@ -25,8 +22,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  bottom: 215px;
-  right: 261px;
+  bottom: 350px;
+  left: 650px;
 }
 
 .places-image {
@@ -40,4 +37,24 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 30px;
+}
+
+.places-reservation {
+  display: inline-flex;
+  padding: 18px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 53px;
+  border: 1px solid var(--Black, #000);
+  background: rgba(217, 217, 217, 0);
+  color: var(--Black, #000);
+  text-align: right;
+  font-family: Abel;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
 }
