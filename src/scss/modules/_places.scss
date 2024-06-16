@@ -1,0 +1,43 @@
+.places-text {
+  color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 100px;
+}
+
+.places-logo {
+  margin-top: 90px;
+}
+
+.places-arti {
+  position: absolute;
+  bottom: 10px; /* Ajustez selon vos besoins */
+  left: 10px; /* Ajustez selon vos besoins */
+  padding: 5px; /* Optionnel: pour une meilleure lisibilité du texte */
+  z-index: 10;
+  color: var(--Black, #000);
+  text-align: right;
+  font-family: Abel;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  bottom: 215px;
+  right: 261px;
+}
+
+.places-image {
+  margin-top: 30px;
+}
+
+.places-infos {
+  color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
