@@ -5,11 +5,66 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-bottom: 30px;
+  margin-top: 80px;
 }
 
 .contact-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 120px;
+}
+
+.contact-tel {
+  color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+--------------- .contact-join {
+  color: var(--Black, #000);
   text-align: center;
+  font-family: Abel;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.contact-reduc {
+  color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.contact-spam {
+  color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.contact-go {
+  text-align: center;
+}
+
+.contact-rights {
+  color: var(--Black, #000);
+  text-align: center;
+  font-family: Abel;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 100px 0 80px 0;
 }

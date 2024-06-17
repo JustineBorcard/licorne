@@ -12,3 +12,25 @@
 
   justify-content: space-between;
 }
+
+.languages-fr {
+  width: 17px;
+  height: 20px;
+
+  color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.languages-fr:hover {
+  color: var(--Black, #000);
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: var(--Black, #000);
+  font-family: Abel;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.448%; /* 20.392px */
+}

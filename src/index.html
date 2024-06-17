@@ -41,11 +41,11 @@
         <div class="row">
           <div class="col-12">
             <nav class="naviguation">
-              <a href="#histoire">NOTRE HISTOIRE</a>
-              <a href="#bieres">NOS BIERES</a>
-              <a href="#shop">SHOP</a>
-              <a href="#lieux">POINTS DE VENTE</a>
-              <a href="#contact">CONTACT</a>
+              <a class="naviguation-history" href="#histoire">NOTRE HISTOIRE</a>
+              <a class="naviguation-beer" href="#bieres">NOS BIERES</a>
+              <a class="naviguation-shop" href="#shop">SHOP</a>
+              <a class="naviguation-places" href="#lieux">POINTS DE VENTE</a>
+              <a class="naviguation-contact" href="#contact">CONTACT</a>
             </nav>
           </div>
         </div>
@@ -66,7 +66,7 @@
           </div>
         </div>
       </div>
-      <main class="container">
+      <div class="container">
         <div class="row">
           <div class="col-12">
             <h2 class="history" id="histoire">NOTRE HISTOIRE</h2>
@@ -115,6 +115,7 @@
             </p>
           </div>
         </div>
+      </div>
         <div class="container">
           <div class="row">
             <div class="col-5">
@@ -136,7 +137,8 @@
                 class="image-beer"
               />
             </div>
-        </div>
+          </div>
+        </div> 
       </div>
       <div class="container">
         <div class="row">
@@ -335,38 +337,42 @@
           </div>
         </div>
         <div class="row">
-        <div class="col-12">
-          <p class="places-text">Vous pouvez nous trouver dans notre brasserie située au cœur d'une vieille bâtisse médiévale, où nous vous 
-            accueillons pour des dégustations ou des visites guidées pour en apprendre davantage sur notre processus de 
-            fabrication. Contactez-nous pour prendre rendez-vous et plongez dans l'univers fascinant de notre brasserie 
-            artisanale.
-          </p>
-        </div> 
-        <div class="row">
-        <div class="col-5">
-          <img class="places-image"
-          src="../img/img-lieu.png"
-          alt="Photo du bâtiment dans lequel se trouve la brasserie Licorne."
-        />
-        </div>
-        <div class="col-7">
-          <img class="places-logo"
-          src="../img/artichoke-logo.png"
-          alt="Logo du festival d'ArtiChoke."
-        />
-        <p class="places-arti">Vous pourrez aussi nous retrouver au <br> <a
-          class="history-ArtiChoke"
-          href="https://www.artichokefestival.ch/"
-          target="_blank"
-        >
-          festival ArtiChoke
-        </a>, où nous <br> tiendrons un stand pour faire découvrir <br> et déguster nos produits</p>
-        </div>
+          <div class="col-12">
+            <p class="places-text">
+              Vous pouvez nous trouver dans notre brasserie située au cœur d'une vieille bâtisse médiévale, où nous vous 
+              accueillons pour des dégustations ou des visites guidées pour en apprendre davantage sur notre processus de 
+              fabrication. Contactez-nous pour prendre rendez-vous et plongez dans l'univers fascinant de notre brasserie 
+              artisanale.
+            </p>
+          </div>
         </div>
         <div class="row">
-        <div class="col-12">
-          <div class="places-infos">
-            <p>Licorne <br> Sylvain Megroni <br> Chemin du Lac 2 <br> CH-1470 Estavayer-Le-Lac</p>
+          <div class="col-5">
+            <img class="places-image" src="../img/img-lieu.png" alt="Photo du bâtiment dans lequel se trouve la brasserie Licorne." />
+          </div>
+          <div class="col-7">
+            <img class="places-logo" src="../img/artichoke-logo.png" alt="Logo du festival d'ArtiChoke." />
+            <p class="places-arti">
+              Vous pourrez aussi nous retrouver au
+              <br />
+              <a class="history-ArtiChoke" href="https://www.artichokefestival.ch/" target="_blank"> festival ArtiChoke </a>, où nous
+              <br />
+              tiendrons un stand pour faire découvrir
+              <br />
+              et déguster nos produits
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="places-infos">
+              <p>
+                Licorne <br />
+                Sylvain Megroni <br />
+                Chemin du Lac 2 <br />
+                CH-1470 Estavayer-Le-Lac
+              </p>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -377,6 +383,8 @@
           </div>
         </div>
       </div>
+    </main>
+    <footer class="l-footer">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -384,22 +392,43 @@
           </div>
         </div>
         <div class="row">
-        <div class="col-12">
-          <p class="contact-infos"> <p>Licorne <br> Sylvain Megroni <br> Chemin du Lac 2 <br> CH-1470 Estavayer-Le-Lac</p>
-          </p>
-          <p>+41 46 854 83 54</p>
-        </div> 
+          <div class="col-12">
+            <p class="contact-infos">
+              Licorne <br />
+              Sylvain Megroni <br />
+              Chemin du Lac 2 <br />
+              CH-1470 Estavayer-Le-Lac
+            </p>
+            <p class="contact-tel">+41 46 854 83 54</p>
+          </div>
         </div>
         <div class="row">
           <div class="col-12">
             <div class="contact-logo">
-              <img src="../img/tik-tok.svg" alt="Logo Tik-tok">
-              <img src="../img/insta.svg" alt="Logo Insta">
-              <img src="../img/mail.svg" alt="Logo mail">
+              <img src="../img/tik-tok.svg" alt="Logo Tik-tok" />
+              <img src="../img/insta.svg" alt="Logo Insta" />
+              <img src="../img/mail.svg" alt="Logo mail" />
             </div>
-          </div> 
+            <hr>
+          </div>
+          <div class="col-12">
+            <p class="contact-join">REJOINS-NOUS <br> EN T’ABONNANT A LA NEWSLETTER!</p>
+            <p class="contact-reduc">Pour te tenir informer des nouveautés et des réductions</p>
+            <p class="contact-spam">*Pas de spam c’est promis !*</p>
+          </div>
+          <div class="contact-go">
+            <img
+              src="../img/go.png"
+              alt="Bouton pour accéder à la newsletter."
+            />
+          </div>
+          <div class="contact-rights">
+            <p>Politique de confidentialité <br> Conditions générales de vente <br> © 2024 Licorne. Tous droits réservés. </p>
+          </div>
         </div>
-    </main>
+      </div> 
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
+

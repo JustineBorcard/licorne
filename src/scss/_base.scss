@@ -50,10 +50,21 @@ h3 {
   opacity: 0.25;
 }
 
+hr {
+  height: 4px;
+  margin: 20px 0;
+  color: #000;
+}
+
 a {
   color: var(--Black);
   text-decoration: none;
 }
+
+br {
+  margin-top: 50px;
+}
+
 img,
 video {
   max-inline-size: 100%;
