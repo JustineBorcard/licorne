@@ -5,14 +5,13 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .contact-logo {
   display: flex;
   justify-content: space-evenly;
   margin-top: 120px;
-  margin-bottom: 60px;
 }
 
 .contact-tel {
@@ -38,7 +37,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .contact-reduc {
@@ -63,11 +62,6 @@
 
 .contact-go {
   text-align: center;
-}
-
-.contact-go:hover {
-  text-align: center;
-  content: url("../../img/go-hover.png");
 }
 
 .contact-rights {

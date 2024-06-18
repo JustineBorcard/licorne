@@ -36,7 +36,7 @@
 }
 
 .card-order {
-  display: inline-flex;
+  display: flex;
   padding: 3px 23px;
   align-items: center;
   gap: 19px;
@@ -50,6 +50,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 30px;
 }
 
 .shop {

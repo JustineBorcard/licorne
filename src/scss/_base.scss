@@ -13,7 +13,6 @@
 // ==================================== */
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -70,16 +69,6 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
-}
-
-/*.row + .row {
-  /*margin-top: 16px;
-}
-
-.row > .col,
-.row > [class^="col-"] {
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
 /* ====================================

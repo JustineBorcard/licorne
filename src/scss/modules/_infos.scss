@@ -10,8 +10,9 @@
   flex-shrink: 0;
   background-color: hsl(336, 12%, 44%);
   padding: 80px 150px 30px 55px;
-  width: 1315px;
-  height: 478px;
+  width: 1075px;
+  height: 367px;
+  right: 58px;
   position: relative;
   margin-top: 100px;
 }
@@ -23,10 +24,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 1112px;
+  height: 176px;
   flex-shrink: 0;
   background-color: #83a5a8;
   padding: 80px 50px 30px 150px;
-  height: 478px;
+  width: 1075px;
+  height: 367px;
+  left: 164px;
   position: relative;
   text-align: right;
   margin-top: 150px;
@@ -42,8 +47,8 @@
   flex-shrink: 0;
   background-color: #6c7d47;
   padding: 80px 150px 30px 55px;
-  width: 1315px;
-  height: 478px;
+  width: 1075px;
+  height: 367px;
   position: relative;
   margin-top: 150px;
 }
@@ -59,7 +64,7 @@
   text-align: right;
   position: absolute;
   bottom: 0;
-  right: 160px;
+  right: 110px;
 }
 
 .infos-ingredients-ipa {
@@ -73,7 +78,7 @@
   text-align: right;
   position: absolute;
   bottom: 0;
-  right: 163px;
+  right: 110px;
 }
 
 .infos-ingredients-dark {
@@ -87,7 +92,7 @@
   text-align: left;
   position: absolute;
   bottom: 0;
-  left: 164px;
+  left: 150px;
 }
 
 .infos-order-ipa {
@@ -127,6 +132,25 @@
   bottom: 30px;
 }
 
+.infos-order-blond:hover {
+  display: inline-flex;
+  padding: 7px 19px;
+  align-items: center;
+  gap: 18px;
+  border-radius: 53px;
+  border: 1px solid #fff;
+  background: var(--White, #fff);
+  color: var(--Mauve, #7f636e);
+  text-align: right;
+  font-family: Abel;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  animation-duration: 140ms;
+  animation-name: dissolve;
+}
+
 .infos-order-dark {
   display: inline-flex;
   padding: 7px 19px;
@@ -145,4 +169,8 @@
   position: absolute;
   bottom: 30px;
   right: 50px;
+}
+
+.infos-our-beers {
+  margin-left: 50px;
 }
